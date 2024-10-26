@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>RESPONSIVE PERSONAL PORTFOLIO WEBSITE </title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">PROJECT</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Simmi</h1>
+                <h3>And I'm a <span class="multiple-text">Web Developer</span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/Simmiyd"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxs-envelope'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/ydsimmi"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <a href="file:///S:/simmi/Downloads/RESUME%20SIMMI.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/10/computer_engineer-compare-page.jpg" alt="">
+            </div>
+        </section>
+
+
+        <div id="about-section">
+            <div class="about-content">
+                    <div class="col-1">
+                    <h2 class="heading">About<span>Me</span></h2>
+                    <p class="p">I 'm a Full stack Web Developer. <br>I specialize in building responsive web
+                        applications using modern technologies such as <br>React, Node.js, and MongoDB.
+                        I am passionate about coding and enjoy collaborating with <br>cross-functional 
+                        teams to deliver high-quality software solutions.</p>
+                        <img src="asssests/image.png" class="img">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>React.js</li>
+                    <li>MySQL</li>
+    
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>Prodigy infoTech [Sept 2024 - Oct 2024]</span><br>Web Developer Intern </li>
+                    <li><span>Vercons technologies pvt Ltd. [Sept 2024 - Oct 2024]</span><br>Web Developer Intern </li>
+    
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2020 - 2024</span><br>B.Tech from Millia Institute of Technology.<br style="font-size: 10px;">Rambagh, Purnea</li>
+                    <li><span>2018 - 2020</span><br>12th from R.K.B.A. High School.<br>Triveniganj, Supaul</li>
+                    <li><span>2018</span><br>10th from L.N.L.N Project girls high school.<br style="font-size: 10px;">Triveniganj, Supaul</li>
+                    
+                </ul>
+            </div>
+            </div>
+            
+        </div>
+
+
+
+
+        <section class="services"id="services">
+            <h2 class="heading">My<span>Project</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Travel Planner Website</h3>
+                    <p>Qtrip is the comprehensive travel planning platform that caters to all our needs.
+                        Discover exceptional Destination, curate personalized itineraries and seamlessly manage every aspect of your trip.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>Banking Management System</h3>
+                    <p>This is an internet banking website by which the customers can make transactions 
+                        like balance enquiry, Account creation fund transfer, bill pay etc.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            
+                <div class="services-box">
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Explore my portfolio to see a collection of my projects that reflect my creativity,
+                        attention to detail, and commitment to excellence.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio"id="portfolio">
+            <h2 class="heading">My<span>Work</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="asssests/my-work4.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Perssonal Portfolio</h4>
+                        <p>In this project I try making my own portfolio website for myself. Showcase my projects, my social media handles, my experience on the website.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="asssests/my-work1.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Responsive Landing Page</h4>
+                        <p>Create a fully responsive landing page with an interactive navigation menu consisting of HTML, CSS and JAVASCRIPT elements.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="asssests/my-work2.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Stopwatch Web Application</h4>
+                        <p>In this project I Designed using HTML, CSS and JavaScript, this project allows users to measure and record time intervals with precise control. </p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="asssests/my-work3.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Tic-Tac-Toe Web Application </h4>
+                        <p>Tic-tac-toe is a classic game for two players where players take turns marking a 3x3 grid with X or O. It is built with HTML, CSS and JavaScript.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact"id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
+
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Mobile Number"placeholder="Mobile Number">
+                    <input type="text"name="Email Subject" placeholder="Email Subject">
+                </div>
+                <textarea name="Your Message" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message"class="btn">
+            </form>
+            <span id="msg"></span>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Simmi | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+    
+            function opentab(tabname){
+                for(tablink of tablinks ){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents ){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        
+    </body>
+</html>
